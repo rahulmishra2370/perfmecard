@@ -1,0 +1,101 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.main-content{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+
+.info-div{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:#FFFFFF
+}
+.perfume-head{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #A7AAB3;
+}
+.french-para{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size:xx-large;
+}
+.english-para{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: #A7AAB3;
+       
+}
+.price-div{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.strikeamount,.originalamount{
+      margin: 4px;
+      padding: 10px;
+}
+button,.price-div{
+    margin-top: -20px;
+    
+}
+button{
+
+    margin-bottom: 15px;
+}
+
+.originalamount{
+    color: #3D8168;
+    font-size: x-large;
+}
+
+.strikeamount{
+    color: #A7AAB3;
+    font-size: medium;
+}
+.btn-div{
+    margin-left: 15px;
+    display: flex;
+    height: 30px;
+    width: 154px;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: #3D8168;
+    color: #EFFBF6;
+}
+
+
+.img-div{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.info-div,.img-div{
+    height: 360px;
+    width: 195px;
+}
+
+.bigimage{
+    height: 358px;
+    width: 195px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 6px;
+    
+}
+
+
+
